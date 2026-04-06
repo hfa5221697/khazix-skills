@@ -32,7 +32,7 @@ kaizike-writer/
 
 ### 通过 Agent 安装
 
-在 Claude Code、OpenCode、Codex、OpenClaw 等支持 Skill 的 Agent 中，直接对话：
+在 Claude Code、Codex、OpenClaw 等支持 Skill 的 Agent 中，直接对话：
 
 ```
 安装这个 skill：https://github.com/KKKKhazix/khazix-skills
@@ -47,7 +47,6 @@ kaizike-writer/
 | Claude Code | `~/.claude/skills/` |
 | OpenClaw | `~/.openclaw/skills/` |
 | Codex | `~/.agents/skills/` |
-| OpenCode | `~/.config/opencode/commands/` |
 
 ## 触发方式
 

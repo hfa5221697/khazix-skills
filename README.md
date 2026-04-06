@@ -20,7 +20,7 @@ Skill 的设计理念是**可组合、可移植、按需加载**。多个 Skill 
 
 ### 通过 Agent 安装
 
-在 Claude Code、OpenCode、Codex、OpenClaw 等支持 Skill 的 Agent 中，直接对话：
+在 Claude Code、Codex、OpenClaw 等支持 Skill 的 Agent 中，直接对话：
 
 ```
 安装这个 skill：https://github.com/KKKKhazix/khazix-skills
@@ -38,7 +38,6 @@ Skill 的设计理念是**可组合、可移植、按需加载**。多个 Skill 
 | Claude Code | `~/.claude/skills/` |
 | OpenClaw | `~/.openclaw/skills/` |
 | Codex | `~/.agents/skills/` |
-| OpenCode | `~/.config/opencode/commands/` |
 
 ## License
 
