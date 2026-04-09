@@ -23,12 +23,12 @@ Skill 的设计理念是**可组合、可移植、按需加载**。多个 Skill 
 在 Claude Code、Codex、OpenClaw 等支持 Skill 的 Agent 中，直接对话：
 
 ```
-安装这个 skill：https://github.com/KKKKhazix/khazix-skills
+安装这个 skill：https://github.com/hfa5221697/khazix-skills
 ```
 
 ### 手动安装
 
-1. 在本仓库的 [Releases](https://github.com/KKKKhazix/khazix-skills/releases) 页面下载对应 Skill 的 `.skill` 安装包
+1. 在本仓库的 [Releases](https://github.com/hfa5221697/khazix-skills/releases) 页面下载对应 Skill 的 `.skill` 安装包
 2. 将 `.skill` 文件拖动到对应工具的 Skills 目录下
 
 各工具的 Skills 安装路径：
