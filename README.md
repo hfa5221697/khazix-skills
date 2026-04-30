@@ -20,10 +20,6 @@
 
 都是在自己项目里跑通了一段时间，确实省事，才搬出来开源的。没什么花活，就是几个挺实用的东西。
 
-| Skill | 说明 | 讲解 |
-|-------|------|------|
-| [**hv-analysis**](./hv-analysis/) | 横纵分析法深度研究 Skill，自动联网收集信息，纵向追时间深度 + 横向追竞争广度，最终输出排版精美的 PDF 研究报告 | [公众号文章](https://mp.weixin.qq.com/s/Y_uRMYBmdLWUPnz_ac7jWA) |
-| [**your-writer**](./your-writer/) | 卡兹克公众号长文写作 Skill，包含完整的写作风格规则、四层自检体系、内容方法论和风格示例库 | [公众号文章](https://mp.weixin.qq.com/s/AtxGrii_K-nzkwUM9SNhEg) |
 - **Skills** — Agent 能直接加载的结构化指令集，遵循 [Agent Skills](https://agentskills.io) 开放标准。Claude Code、Codex、OpenCode、OpenClaw 都能装
 - **Prompts** — 一段提示词，复制粘贴到 ChatGPT / Claude / Gemini 任何对话里就能用，不需要安装
 
@@ -37,7 +33,7 @@
 |---|---|---|
 | 🧹 [**neat-freak（洁癖）**](#-neat-freak洁癖) | 干完活跑一下 `/neat`，自动把你这次改的东西跟项目文档、CLAUDE.md、Agent 记忆全部对齐 | [公众号文章](https://mp.weixin.qq.com/s/tg1wd-iN2gWHWhXdY0faeg) |
 | 🔭 [**hv-analysis（横纵分析法）**](#-hv-analysis横纵分析法) | 想搞懂一个产品/公司/概念是怎么回事，丢给它，给你一份万字 PDF 研究报告 | [公众号文章](https://mp.weixin.qq.com/s/Y_uRMYBmdLWUPnz_ac7jWA) |
-| ✍️ [**khazix-writer（卡兹克写作）**](#-khazix-writer卡兹克写作) | 装上之后，Agent 用我的口吻和节奏写公众号长文 | [公众号文章](https://mp.weixin.qq.com/s/AtxGrii_K-nzkwUM9SNhEg) |
+| ✍️ [**your-writer（卡兹克写作）**](#-your-writer卡兹克写作) | 装上之后，Agent 用我的口吻和节奏写公众号长文 | [公众号文章](https://mp.weixin.qq.com/s/AtxGrii_K-nzkwUM9SNhEg) |
 
 ### Prompts
 
@@ -52,10 +48,10 @@
 在 Claude Code、Codex、OpenClaw 等支持 Skill 的 Agent 里，直接说：
 
 ```
-我安装这个 skill：https://github.com/hfa5221697/khazix-skills/tree/main/<skill-name>
+帮我安装这个 skill：https://github.com/hfa5221697/khazix-skills/tree/main/<skill-name>
 ```
 
-把 `<skill-name>` 换成你想装的那个，比如 `neat-freak`、`hv-analysis`、`khazix-writer`。Agent 会自己 clone 到对应目录，不用你操心路径。
+把 `<skill-name>` 换成你想装的那个，比如 `neat-freak`、`hv-analysis`、`your-writer`。Agent 会自己 clone 到对应目录，不用你操心路径。
 
 ---
 
@@ -127,7 +123,7 @@ sync up          # English
 **不适合**
 
 - 单纯查个名词解释 — 那种问题用普通对话就行，杀鸡用牛刀
-- 写公众号文章 — 那个用下面的 khazix-writer
+- 写公众号文章 — 那个用下面的 your-writer
 
 [![ClawHub](https://img.shields.io/badge/ClawHub-v1.0.0-EC4899?style=flat-square)](https://clawhub.ai)
 [![Tessl](https://img.shields.io/badge/Tessl-published-3B82F6?style=flat-square)](https://tessl.io/registry/khazix-skills/hv-analysis)
@@ -140,7 +136,7 @@ sync up          # English
 <table>
 <tr><td>
 
-### ✍️ khazix-writer（卡兹克写作）
+### ✍️ your-writer（卡兹克写作）
 
 > *"有见识的普通人在认真聊一件打动他的事。"*
 
@@ -161,9 +157,9 @@ sync up          # English
 - 一套风格示例库（可以让 AI 直接对照）
 
 [![ClawHub](https://img.shields.io/badge/ClawHub-v1.0.0-EC4899?style=flat-square)](https://clawhub.ai)
-[![Tessl](https://img.shields.io/badge/Tessl-0.1.1-3B82F6?style=flat-square)](https://tessl.io/registry/khazix-skills/khazix-writer)
+[![Tessl](https://img.shields.io/badge/Tessl-0.1.1-3B82F6?style=flat-square)](https://tessl.io/registry/khazix-skills/your-writer)
 
-→ [SKILL.md](./khazix-writer/SKILL.md) · [公众号讲解](https://mp.weixin.qq.com/s/AtxGrii_K-nzkwUM9SNhEg)
+→ [SKILL.md](./your-writer/SKILL.md) · [公众号讲解](https://mp.weixin.qq.com/s/AtxGrii_K-nzkwUM9SNhEg)
 
 </td></tr>
 </table>
